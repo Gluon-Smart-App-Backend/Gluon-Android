@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Gluon App</string>
+    <string name="onboarding_title"> Welcome to \n Gluon </string>
+    <string name="onboarding_subtitle"> Start chatting now. \n You ask me anything </string>
+    <string name="onboarding_btn_text"> Get Started </string>
+
+    <string name="language_screen_title">What’s your \nnative language?</string>
+    <string name="language_screen_subtitle">You can always change this later</string>
+
+    <string name="password_error_min_length"> At least 8 characters </string>
+    <string name="password_error_uppercase">at least 1 uppercase</string>
+    <string name="password_error_lowercase">at least 1 lowercase </string>
+    <string name="password_error_digitOrSymbol">at least 1 number </string>
+
+
+    <string name="otp_btn">Verify </string>
+    <string name="otp_txtBtn">Didn’t receive the code? \n Resend </string>
+    <string name="otp_title">OTP verification</string>
 </resources>
