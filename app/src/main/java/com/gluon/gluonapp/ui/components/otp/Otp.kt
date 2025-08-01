@@ -14,10 +14,12 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.sp
+import com.gluon.gluonapp.model.OtpValue
 import com.gluon.gluonapp.utils.extensions.each
 import com.gluon.gluonapp.ui.theme.BlueColor
 import com.gluon.gluonapp.ui.theme.BlueLight
 import com.gluon.gluonapp.ui.theme.colors
+import com.gluon.gluonapp.utils.Spacer
 
 
 @Composable
