@@ -13,8 +13,10 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.gluon.gluonapp.ui.screens.chat_screen.chat.SearchBar
-import com.gluon.gluonapp.ui.screens.chat_screen.chat.SearchContent
+import com.gluon.gluonapp.ui.components.chat.ChatBottom
+import com.gluon.gluonapp.ui.components.chat.ChatHeader
+import com.gluon.gluonapp.ui.components.chat.SearchBar
+import com.gluon.gluonapp.ui.components.chat.SearchContent
 import com.gluon.gluonapp.ui.theme.GluonAppTheme
 
 @Composable

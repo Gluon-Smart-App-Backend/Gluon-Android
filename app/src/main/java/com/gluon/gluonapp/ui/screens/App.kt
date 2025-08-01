@@ -14,8 +14,8 @@ import androidx.navigation.compose.rememberNavController
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.gluon.gluonapp.navigation.AppNavGraph
 import com.gluon.gluonapp.navigation.Screen
-import com.gluon.gluonapp.ui.screens.chat_screen.chat.BottomNavComponents
-import com.gluon.gluonapp.utils.NavigationUtils.getCurrentRoute
+import com.gluon.gluonapp.ui.components.chat.BottomNavComponents
+import com.gluon.gluonapp.utils.navigation.NavigationUtils.getCurrentRoute
 
 @Composable
 fun App(

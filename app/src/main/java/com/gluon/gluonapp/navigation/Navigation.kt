@@ -6,8 +6,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.gluon.gluonapp.ui.screens.chat_screen.chat.MainScreen
-import com.gluon.gluonapp.ui.screens.tools_profile.ToolsScreen
+import com.gluon.gluonapp.ui.screens.chat_screen.chat.ChatMainScreen
+import com.gluon.gluonapp.ui.screens.tools_profile_screen.ToolsScreen
 
 @Composable
 fun AppNavGraph(
@@ -24,7 +24,7 @@ fun AppNavGraph(
     ) {
 
         composable(Screen.Chat.route) {
-            MainScreen()
+            ChatMainScreen()
         }
 
 //        composable(Screen.Albums.route) {
