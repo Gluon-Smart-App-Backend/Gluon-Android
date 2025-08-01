@@ -42,3 +42,15 @@ val BlueLight=Color(0xFFB8B8F4)
 val GreyColorLight= Color(0x80F5F5F5)
 //val GreyColorLight20=Color(0xFFF5F5F5)
 val GreyColorLight30=Color(0xFFFAFAFA)
+
+
+
+
+//Qr colors
+val GreyColor=Color(0x800A0D14)
+val LightBlack=Color(0x40333333)
+val DarkWhite = Color(0xFFE5E5E5)
+
+//Qr Search screen color
+val cardBlueColor = Color(0x1A1A73E8)
+val cardBlueNightColor = Color(0x661A73E8)

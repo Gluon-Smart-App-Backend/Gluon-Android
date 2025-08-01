@@ -11,9 +11,9 @@ android {
 
     defaultConfig {
         applicationId = "com.gluon.gluonapp"
-        minSdk = 21
+        minSdk = 24
         //noinspection OldTargetApi
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -75,6 +75,8 @@ dependencies {
     implementation (libs.accompanist.pager.indicators)
     implementation(libs.accompanist.flowlayout)
 
+
+
     // Navigation for Compose
     implementation(libs.androidx.navigation.compose)
 
@@ -95,4 +97,22 @@ dependencies {
     implementation(libs.ui.graphics)  // SVG
 
     implementation(libs.coil.compose)
+    // Compose
+    implementation("androidx.compose.ui:ui:1.6.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+
+    // CameraX
+    implementation("androidx.camera:camera-core:1.4.2")
+    implementation("androidx.camera:camera-camera2:1.4.2")
+    implementation("androidx.camera:camera-lifecycle:1.4.2")
+    implementation("androidx.camera:camera-view:1.4.2")
+    implementation("androidx.camera:camera-video:1.4.2")
+    implementation("androidx.camera:camera-extensions:1.4.2")
+
+
+
+    // ML Kit for QR
+    // implementation("com.google.mlkit:barcode-scanning:17.2.0")
+    implementation("com.google.mlkit:barcode-scanning:17.3.0")
+    debugImplementation ("com.squareup.leakcanary:leakcanary-android:2.12")
 }

@@ -19,6 +19,7 @@ import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.gluon.gluonapp.R
+import com.gluon.gluonapp.ui.components.buttonIcon.BackNavigationIcon
 import com.gluon.gluonapp.ui.theme.BlackColor
 import com.gluon.gluonapp.ui.theme.WhiteColor
 import com.gluon.gluonapp.ui.theme.colors
@@ -45,19 +46,7 @@ fun AppScaffold(
              TopAppBar(
 
                 navigationIcon = {
-                    IconButton(onClick = {
-
-                        if (navController.previousBackStackEntry != null) {
-                            navController.popBackStack()
-                        }
-                    }) {
-                        Icon(
-                            imageVector = imageVector,
-                            contentDescription = "Back",
-                            tint = Color.Unspecified,
-                            modifier = Modifier.size(48.dp)
-                        )
-                    }
+                    BackNavigationIcon(navController)
 
                 },
                 colors = TopAppBarDefaults.topAppBarColors(

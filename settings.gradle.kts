@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "Gluon App"
 include(":app")
- 

@@ -19,6 +19,8 @@ foundation = "1.8.3"
 lifecycleRuntimeKtxVersion = "2.7.0"
 navigationCompose = "2.9.1"
 volley = "1.2.1"
+appcompat = "1.7.1"
+material = "1.12.0"
 
 [libraries]
 accompanist-flowlayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanistFlowlayout" }
@@ -54,9 +56,16 @@ coil-svg = { module = "io.coil-kt:coil-svg", version.ref = "coilVersion" }
 coil-gif = { module = "io.coil-kt:coil-gif", version.ref = "coilVersion" }
 
 ui-graphics = { module = "androidx.compose.ui:ui-graphics", version.ref = "uiGraphicsVersion" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 [plugins]
+
+
+
+
+android-library = { id = "com.android.library", version.ref = "agp" }
+
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-

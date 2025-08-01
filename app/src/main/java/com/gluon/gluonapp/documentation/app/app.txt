@@ -1,0 +1,6 @@
+package com.gluon.gluonapp.documentation.app
+
+Dependency Injection Hilt
+
+https://medium.com/@mohit2656422/setup-of-hilt-with-ksp-in-an-android-project-2025-e76e42bb261a
+
